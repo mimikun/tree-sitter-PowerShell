@@ -5,7 +5,11 @@ build
 
 bindings/*
 
-# see https://stackoverflow.com/a/5534865
-!src/
-src/*
-!src/scanner.c
+index.js
+src/binding.cc
+src/grammar.json
+src/node-types.json
+src/parser.c
+src/tree_sitter/
+
+*.patch
